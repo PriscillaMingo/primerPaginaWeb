@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Hoja de estilos-->
+  <link rel="stylesheet" href="css/estilos1.css">
+  <!-- icono de página-->
+  <link rel="shortcut icon" type="image/x-icon"
+    href="imagenes/6-67729_resultado-de-imagen-para-gorro-de-chef-png-cook.jpg">
+  <!-- fonts para tipo de letras-->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <!-- javaS-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  <div id="arriba" style="text-align: center; border:tomato solid 1px; background: tomato;">
+    <h1 class="lines-effect">RECETAS RICAS Y CASERAS</h1>
+  </div>
+</head>
+
+<body>
+  <header>
+    <nav class="menu">
+      <ul>
+        <li><a href="../prueba 1 clip/prueba1clip.html">Inicio</a></li>
+        <li><a href="../prueba 1 clip/tabladevalores.html">Tabla de valores nutricionales</a></li>
+        <li><a href="">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <!-- Formulario de contacto-->
+    <br></br>
+    <p>Ayudanos a llenar nuestro recetario! Mandanos por mensaje la receta que tanto te gusta así la agregamos.</p>
+    <div class="ibody">
+      <div class="jumbotron">
+        <h2>Contacto</h2>
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="name">Nombre</label>
+        <div class="input-group">
+          <div class="input-group-addon">
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+          </div>
+          <input type="text" class="form-control" id="name" placeholder="Nombre" name="Nombre" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="name">Apellido</label>
+        <div class="input-group">
+          <div class="input-group-addon">
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+          </div>
+          <input type="text" class="form-control" id="name" placeholder="Apellido" name="Apellido" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="email">Email</label>
+        <div class="input-group">
+          <div class="input-group-addon">
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+          </div>
+          <input type="email" class="form-control" id="email" placeholder="Email" name="_replyto" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="message">Receta</label>
+        <textarea class="form-control" id="message" rows="6" placeholder="Receta" name="message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary submit">
+        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Enviar
+      </button>
+    </div>
+    </form>
+    </div>
+    </div>
+    </div>
+    </div>
+    </main>
+    <!--Adivinanza-->
+
+    <p>Por último, te proponemos una adivinanza...</p>
+
+    <main>
+      <div class="ibodyA">
+        <h2 style="color:tomato">Adivina la verdura</h2>
+
+        <h4>¿Cuál es la verdura con mas proteínas?</h4>
+        <span>Intentos: </span>&nbsp; <span id="num" class="fail"></span><br><br>
+        <input id="text" type="text"><br><br>
+        <button id="button" onclick="envie()" type="submit">Respuesta</button><br><br>
+
+      </div>
+    </main>
+    </div>
+    <footer>
+      <div class="footer-copy">
+        &copy; 2020, Todos los derechos reservados |PriscillaMingorance|.
+      </div>
+    </footer>
+    <script src="js/adivinanza.js"></script>
+
+
+  </body>
+
+</html>
